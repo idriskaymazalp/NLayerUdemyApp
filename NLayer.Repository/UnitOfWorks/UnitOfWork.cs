@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using NLayer.core.UnitOfWorks;
+﻿using NLayer.core.UnitOfWorks;
 
 namespace NLayer.Repository.UnitOfWorks
 {

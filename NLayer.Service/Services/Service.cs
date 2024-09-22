@@ -3,12 +3,7 @@ using NLayer.core.Repositories;
 using NLayer.core.Services;
 using NLayer.core.UnitOfWorks;
 using NLayer.Service.Exceptions;
-using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Linq.Expressions;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace NLayer.Service.Services
 {
@@ -53,7 +48,7 @@ namespace NLayer.Service.Services
         public async Task<T> GetByIdAsync(int id)
         {
             var hasProduct = await _repository.GetByIdAsync(id);
-            if(hasProduct == null)
+            if (hasProduct == null)
             {
                 throw new NotFoundException($"{typeof(T).Name}({id}) not found");
             }
