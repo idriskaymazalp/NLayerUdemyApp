@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Linq.Expressions;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Linq.Expressions;
 
 namespace NLayer.core.Repositories
 {
@@ -29,18 +24,18 @@ namespace NLayer.core.Repositories
 
         // public StudentRepository : IGenericRepository<Student>
         // {
-            //Add(Student entity)
-            
-        
-        
+        //Add(Student entity)
+
+
+
         //   Where()
         //   {
-                //EF kodlari yazilacak.
-                //EF nin kendine ait where metotu var bizim yerimize where li sorgu olusturan.
-                //cmd.execute("SElect where satini yaz", baglanti);
-                //cmd.execute("SElect where satini yaz", baglanti);
-                //list<Student> students = _context.Students.Where(x => x.OgrenciAdi == "Ilyas").ToList();
-                //
+        //EF kodlari yazilacak.
+        //EF nin kendine ait where metotu var bizim yerimize where li sorgu olusturan.
+        //cmd.execute("SElect where satini yaz", baglanti);
+        //cmd.execute("SElect where satini yaz", baglanti);
+        //list<Student> students = _context.Students.Where(x => x.OgrenciAdi == "Ilyas").ToList();
+        //
         //   }
         //}
     }

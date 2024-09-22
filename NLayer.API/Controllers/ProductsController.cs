@@ -5,6 +5,7 @@ using NLayer.core.Services;
 using NLayer.Core.DTOs;
 using NLayer.Core.Models;
 using NLayer.Core.Services;
+using System.Collections.Generic;
 
 namespace NLayer.API.Controllers
 {
@@ -23,7 +24,8 @@ namespace NLayer.API.Controllers
         [HttpGet("[action]")]
         public async Task<IActionResult> GetProductsWithCategory()
         {
-            return CreateActionResult(await _servise.GetProductsWithCategory());
+            //Check 1
+            return CreateActionResult(CustomResponseDto<List<ProductWithCategoryDto>>.Success(200, await _servise.GetProductsWithCategory()));
         }
 
 
