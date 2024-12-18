@@ -1,1 +1,1 @@
-# NLayerUdemyApp
+NlayerUdemyApp is a web application developed using C# and .NET 8, designed to demonstrate a multi-layered architecture. It includes API services and serves as an example of how to structure applications with a layered approach. This project showcases the use of different layers such as data access, business logic, and presentation in a real-world scenario.
